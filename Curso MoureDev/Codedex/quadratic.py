@@ -1,0 +1,7 @@
+a = int(input("Ingrese un numero para el valor a: "))
+b = int(input("Ingrese un numero para el valor b: "))
+c = int(input("Ingrese un numero para el valor c: "))
+root1 = ((b*(-1)) + ((b**2 - (4*a)*c) ** 0.5))/(2*a)
+root2 = ((b*(-1)) - ((b**2 - (4*a)*c) ** 0.5))/(2*a)
+print(root1)
+print(root2)

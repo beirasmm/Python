@@ -6,54 +6,13 @@ import random
 
 
 def compare_comunes(arr1, arr2, boo):
-    commons_array = []
-    no_commons_array = []
-    for i in range(len(arr1)):
-        is_common = False
-        for j in range(len(arr2)):
-            print(is_common)
-            if arr1[i] == arr2[j]:
-                is_common = True
-                print(is_common)
-        if is_common:
-            print("Es comun es: " + str(is_common))
-            print("El elemento a insertar es: " + str(arr1[i]))
-            commons_array.append(arr1[i])
-        else:
-            print("Es comun es: " + str(is_common))
-            print("El elemento a insertar es: " + str(arr1[i]))
-            no_commons_array.append(arr1[i])
-    if bool:
-        return commons_array
-    else:
-        return no_commons_array
 
-# def compare(arr1, arr2,boo):
-#   new_array = []
-#   if boo:
-#     for i in range(arr1):
-#       j = 0
-#       common = True
-#       while (j <arr2.length):
-#         if i != j:
-#           j = j+1
-#         else:
-#           new_array.append(i)
-#           break
-#   else:
-#     for i in range(arr1):
-#       for j in range(arr2):
-
-
-# def compare_no_comunes(arr1, arr2,boo):
-
-
-def create_list(n):
-    lst = []
-    for i in range(0, n):
-        ele = int(input("Inserta el elemento " + str(i)+": "))
-        lst.append(ele)  # adding the element
-    return lst
+    # def create_list(n):
+    #     lst = []
+    #     for i in range(0, n):
+    #         ele = int(input("Inserta el elemento " + str(i)+": "))
+    #         lst.append(ele)  # adding the element
+    #     return lst
 
 
 def run():
